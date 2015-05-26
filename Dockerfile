@@ -12,6 +12,6 @@ RUN ln -s /opt/travis-build $HOME/.travis/travis-build
 
 RUN travis version
 
-ENTRYPOINT ["/data", "travis", "compile", "--skip-version-check", "--skip-completion-check"]
+
 CMD ["-p"]
 
